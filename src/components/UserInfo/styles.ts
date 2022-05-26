@@ -25,6 +25,8 @@ export const Avatar = styled.div`
     border-radius: 50%;
 
     background-color: var(--gray);
+
+    cursor: pointer;
 `
 
 export const UserData = styled.div`
