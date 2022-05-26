@@ -32,6 +32,10 @@ export const Container = styled.div`
         >div span {
             color: var(--white);
         }
+
+        >div:not(:first-child) svg {
+            display: inline;
+        }
     }
     
 `
@@ -46,6 +50,8 @@ export const InviteIcon = styled(PersonAdd)`
     width: 16px;
     height: 16px;
 
+    display: none;
+
     color: var(--symbol);
     cursor: pointer;
     
@@ -59,6 +65,8 @@ export const InviteIcon = styled(PersonAdd)`
 export const SettingsIcon = styled(Settings)`
     width: 16px;
     height: 16px;
+
+    display: none;
 
     color: var(--symbol);
     cursor: pointer;
