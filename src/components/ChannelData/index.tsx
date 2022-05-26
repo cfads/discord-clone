@@ -20,8 +20,48 @@ const ChannelData: React.FC = () => {
             <Messages ref={messageRef}>
                 <ChannelMessage 
                     author="Cris"
-                    date="21/06/2021"
-                    content= "Hoje é meu aniversário"
+                    date="25/05/2022"
+                    content= "Isso é uma mensagem teste."
+                />
+                <ChannelMessage 
+                    author="Cris"
+                    date="25/05/2022"
+                    content= "Isso é uma mensagem teste."
+                />
+                <ChannelMessage 
+                    author="Cris"
+                    date="25/05/2022"
+                    content= "Isso é uma mensagem teste."
+                />
+                <ChannelMessage 
+                    author="Cris"
+                    date="25/05/2022"
+                    content= "Isso é uma mensagem teste."
+                />
+                <ChannelMessage 
+                    author="Cris"
+                    date="25/05/2022"
+                    content= "Isso é uma mensagem teste."
+                />
+                <ChannelMessage 
+                    author="Cris"
+                    date="25/05/2022"
+                    content= "Isso é uma mensagem teste."
+                />
+                <ChannelMessage 
+                    author="Cris"
+                    date="25/05/2022"
+                    content= "Isso é uma mensagem teste."
+                />
+                <ChannelMessage 
+                    author="Cris"
+                    date="25/05/2022"
+                    content= "Isso é uma mensagem teste."
+                />
+                <ChannelMessage 
+                    author="Cris"
+                    date="25/05/2022"
+                    content= "Isso é uma mensagem teste."
                 />
                 <ChannelMessage 
                     author="Juan"
@@ -29,7 +69,7 @@ const ChannelData: React.FC = () => {
                     hasMention
                     content= {
                         <>
-                            <Mention>@Cris</Mention>, vai ter flex ?
+                            <Mention>@Cris</Mention>, vai jogar hoje ?
                         </>
                     }
                 />
